@@ -1,0 +1,19 @@
+(venv) theia:ci-cd-final-project$ gh run view 22453963510 --verbose
+
+✓ main CI workflow · 22453963510
+Triggered via push about 7 minutes ago
+
+JOBS
+✓ build in 23s (ID 65030045773)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Install dependencies
+  ✓ Lint with flake8
+  ✓ Run unit tests with nose
+  ✓ Post Checkout
+  ✓ Stop containers
+  ✓ Complete job
+
+For more information about a job, try: gh run view --job=<job-id>
+View this run on GitHub: https://github.com/0xJoe1074/ci-cd-final-project/actions/runs/22453963510
